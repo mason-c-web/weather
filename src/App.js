@@ -38,12 +38,12 @@ useEffect(()=>{
 },[])
 
   return (
-    <div className="App">    <h1>DO you need pants.com</h1>
+    <div className="App">    <h1>DoYouNeedPants.com</h1>
 
-      {temp>40?
-       <div>{temp}</div>
+      {temp<69?
+       <div>You need pants</div>
        :
-       <div> you dont need  pants</div>
+       <div> You dont need  pants</div>
       }
 
     </div>
